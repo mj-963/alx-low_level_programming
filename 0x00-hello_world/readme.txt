@@ -1,0 +1,1 @@
+Trying automate git tasks
