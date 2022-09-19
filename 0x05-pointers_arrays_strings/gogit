@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git add .
-read -p "Enter your Commit message: " cM
-git commit - m '$cM'
+git add . 
+read -p "input commit message: " cmessage
+git commit -m "$cmessage"
 git push
