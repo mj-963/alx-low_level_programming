@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings.
+ * _strncat - concatenates two strings.
  * @dest: represent dest string.
  * @src: represents src string.
  * @n: Amount of byte to use.
  * Return: dest.
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int size1 = 0;
 	int size2 = 0;
