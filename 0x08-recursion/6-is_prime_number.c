@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime - detects if an input number is a prime number. 
+ * is_prime - detects if an input number is a prime number.
  * @n: input number.
  * @a: iterator.
  * Return: 1 if n is prime, o if n is !prime.
@@ -10,10 +10,12 @@
 int is_prime(unsigned int n, unsigned int a)
 {
 	if (n % a == 0)
-		if (n ==a)
+	{
+		if (n == a)
 			return (1);
 		else
 			return (0);
+	}
 	return (0 + is_prime(n, a + 1));
 }
 
